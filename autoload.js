@@ -33,7 +33,7 @@ if (screen.width >= 768) {
 	]).then(() => {
 		// 配置选项的具体用法见 README.md
 		initWidget({
-			waifuPath: "https://raw.githubusercontent.com/imuncle/live2d/master/model/dollsfrontline/kp31_1103/normal/model.json",
+			waifuPath: "https://raw.githubusercontent.com/Rathgrith/Girls-Frontline/master/kp31_310/normal/model.json",
 			//apiPath: "https://live2d.fghrsh.net/api/",
 			cdnPath: "https://fastly.jsdelivr.net/gh/fghrsh/live2d_api/",
 			tools: ["hitokoto", "asteroids", "photo", "quit"]
