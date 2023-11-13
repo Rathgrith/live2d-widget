@@ -57,7 +57,7 @@ function loadWidget(config) {
 
             if (domain in domains) from = domains[domain];
             else from = referrer.hostname;
-            return `Hello！来自 <span>${from}</span> 的朋友<br>${text}`;
+            return `Hello! Friend from <span>${from}</span> !<br>${text}`;
         }
         return text;
     }
