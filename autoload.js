@@ -1,5 +1,5 @@
 // live2d_path 参数建议使用绝对路径
-const live2d_path = "https://raw.githubusercontent.com/imuncle/live2d/master/model/dollsfrontline/kp31_1103/normal/";
+const live2d_path = "https://fastly.jsdelivr.net/gh/rathgrith/live2d-widget@latest/";
 //const live2d_path = "/live2d-widget/";
 
 // 封装异步加载资源的方法
@@ -33,11 +33,10 @@ if (screen.width >= 768) {
 	]).then(() => {
 		// 配置选项的具体用法见 README.md
 		initWidget({
-		
-			waifuPath: "https://raw.githubusercontent.com/Rathgrith/Girls-Frontline/master/kp31_310/normal/model.json",
+			waifuPath: live2d_path + "waifu-tips.json",
 			//apiPath: "https://live2d.fghrsh.net/api/",
 			cdnPath: "https://fastly.jsdelivr.net/gh/fghrsh/live2d_api/",
-			tools: ["hitokoto", "asteroids", "photo", "quit"]
+			tools: ["hitokoto", "asteroids", "switch-model", "switch-texture", "photo", "info", "quit"]
 		});
 	});
 }
